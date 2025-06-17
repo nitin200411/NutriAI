@@ -7,7 +7,7 @@ PREFERRED = "models/gemini-1.5-flash-latest"
 TEMPERATURE   = 1
 
 # ── Gemini client ─────────────────────────────────────────────────────
-genai.configure(api_key=os.getenv("AIzaSyAhUQ1a_HuaZXjTK2MXozz8RVqmzb1XLQo"))
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 def list_models():
     """Return only text-generation models that are still live."""
