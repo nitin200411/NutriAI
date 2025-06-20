@@ -9,6 +9,7 @@ TEMPERATURE   = 1
 # ── Gemini client ─────────────────────────────────────────────────────
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
+
 def list_models():
     """Return only text-generation models that are still live."""
     return [
