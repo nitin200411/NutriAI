@@ -3,7 +3,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # ── constants ─────────────────────────────────────────────────────────
-PREFERRED = "models/gemini-1.5-flash-latest"
+PREFERRED = "models/gemini-2.5-flash-latest"
 TEMPERATURE   = 1
 
 # ── Gemini client ─────────────────────────────────────────────────────
